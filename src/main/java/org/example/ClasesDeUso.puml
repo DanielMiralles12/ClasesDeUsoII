@@ -1,20 +1,14 @@
 @startuml
 
 left to right direction
-:Cliente:
 :Bibliotecario:
-rectangle Biblioteca{
+usecase "Baja socio" as CU1
+:Bibliotecario: -- CU1
+usecase "Buscar socio" as CU2
 
-usecase "Reservar libro" as CU1
-usecase "Prestar libro" as CU2
-usecase "Devolver libro" as CU3
-usecase "Actualizar catalogo" as CU4
-}
-:Bibliotecario: -- CU3
-:Bibliotecario: -- CU4
+CU1 ..  CU2 :<<include>>
 
-:Cliente: -- CU1
-:Cliente: -- CU2
-:Cliente: -- CU3
+
+
 
 @enduml

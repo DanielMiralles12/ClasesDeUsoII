@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93ef93d1-c543-4845-8f1c-359deb2bfe9f" name="Changes" comment="Ejemplo generico clases de uso">
+    <list default="true" id="93ef93d1-c543-4845-8f1c-359deb2bfe9f" name="Changes" comment="Ejemplo real clases de uso">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ClasesDeUso.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ClasesDeUso.puml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683638932496</updated>
-      <workItem from="1683638934278" duration="1959000" />
+      <workItem from="1683638934278" duration="2773000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion proyecto ClasesDeUsoII">
       <created>1683639206578</created>
@@ -74,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683640641320</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ejemplo real clases de uso">
+      <created>1683641080697</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683641080697</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +101,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creacion proyecto ClasesDeUsoII" />
     <MESSAGE value="Ejemplo generico clases de uso" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejemplo generico clases de uso" />
+    <MESSAGE value="Ejemplo real clases de uso" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejemplo real clases de uso" />
   </component>
 </project>
