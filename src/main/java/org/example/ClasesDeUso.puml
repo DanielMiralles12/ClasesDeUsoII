@@ -1,3 +1,21 @@
 @startuml
 
+left to right direction
+
+rectangle sistema{
+
+usecase "Caso de uso" as CU1
+usecase "Caso de uso" as CU2
+usecase "Caso de uso" as CU3
+}
+
+Actor -- CU1
+Actor -- CU2
+Actor -- CU3 : Comunicacion.
+Actor2 -- CU1
+Actor2 -- CU3
+
+usecase "Entorno del sistema" as ES
+ES -- sistema
+
 @enduml
