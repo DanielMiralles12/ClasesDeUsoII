@@ -1,13 +1,11 @@
 @startuml
 
-left to right direction
-:Agente:
-usecase "Evaluar solicitud de credito" as CU1
-:Agente: -- CU1
-usecase "Solicitar informacion adicional al cliente" as CU2
+:Cliente bancario: as bancario
+:Cliente corporativo: as corporativo
+:Cliente normal: as normal
 
-CU1 ..  CU2 :<<extend>>
-
+bancario <|-- corporativo
+bancario <|-- normal
 
 
 
