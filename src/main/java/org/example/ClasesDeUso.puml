@@ -1,12 +1,12 @@
 @startuml
 
 left to right direction
-:Bibliotecario:
-usecase "Baja socio" as CU1
-:Bibliotecario: -- CU1
-usecase "Buscar socio" as CU2
+:Agente:
+usecase "Evaluar solicitud de credito" as CU1
+:Agente: -- CU1
+usecase "Solicitar informacion adicional al cliente" as CU2
 
-CU1 ..  CU2 :<<include>>
+CU1 ..  CU2 :<<extend>>
 
 
 
