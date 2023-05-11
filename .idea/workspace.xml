@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93ef93d1-c543-4845-8f1c-359deb2bfe9f" name="Changes" comment="Relacion entre clases de uso: Herencia.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="93ef93d1-c543-4845-8f1c-359deb2bfe9f" name="Changes" comment="Ejemplo diagrama de contexto e inicial.">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ClasesDeUso.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ClasesDeUso.puml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1683638932496</updated>
       <workItem from="1683638934278" duration="3950000" />
-      <workItem from="1683811182524" duration="720000" />
+      <workItem from="1683811182524" duration="1499000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion proyecto ClasesDeUsoII">
       <created>1683639206578</created>
@@ -104,7 +103,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683642906524</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Ejemplo diagrama de contexto e inicial.">
+      <created>1683811938844</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1683811938844</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Ejemplo diagrama de contexto e inicial.">
+      <created>1683812140155</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1683812140155</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +141,7 @@
     <MESSAGE value="Relacion entre clases de uso: Inclusion." />
     <MESSAGE value="Relacion entre clases de uso: Extension." />
     <MESSAGE value="Relacion entre clases de uso: Herencia." />
-    <option name="LAST_COMMIT_MESSAGE" value="Relacion entre clases de uso: Herencia." />
+    <MESSAGE value="Ejemplo diagrama de contexto e inicial." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejemplo diagrama de contexto e inicial." />
   </component>
 </project>
