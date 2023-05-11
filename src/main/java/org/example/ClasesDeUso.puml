@@ -1,11 +1,25 @@
 @startuml
+left to right direction
 
-:Cliente bancario: as bancario
-:Cliente corporativo: as corporativo
-:Cliente normal: as normal
+rectangle EmpresaPedidos{
+usecase "Introducir pedido" as CU1
+usecase "Cancelar pedido" as CU2
+usecase "Obtener estado del pedido" as CU3
+usecase "Borrar pedido" as CU4
+usecase "Buscar pedido" as CU5
+usecase "Alta cliente" as CU6
+usecase "Nuevo producto"" as CU7
+usecase "Borrar producto" as CU8
+}
 
-bancario <|-- corporativo
-bancario <|-- normal
+:Empleado: -- CU1
+:Empleado: -- CU2
+:Empleado: -- CU3
+:Empleado: -- CU4
+:Empleado: -- CU5
+:Empleado: -- CU6
+:Administrador: -- CU7
+:Administrador: -- CU8
 
 
 
